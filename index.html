@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍲 Recipe Finder</h1>
+    <input type="text" id="searchInput" placeholder="Search for a recipe...">
+    <button onclick="searchRecipes()">Search</button>
+    <button id="themeToggle">🌙 Dark Mode</button>
+    <div id="results"></div>
+  </div>
+
+  <!-- Popup modal -->
+  <div id="recipeModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" alt="Recipe Image">
+      <p id="modalCategory"></p>
+      <p id="modalArea"></p>
+      <h3>Ingredients</h3>
+      <ul id="modalIngredients"></ul>
+      <h3>Instructions</h3>
+      <p id="modalInstructions"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
