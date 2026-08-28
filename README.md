@@ -52,7 +52,7 @@ ThemealDB API
 
 # Installation & Setup
 1️⃣ Clone this repository
-git clone https://github.com/your-username/recipe-finder.git
+git clone https://github.com/deepikaPonakala/recipe-finder.git
 
 2️⃣ Navigate into the project
 cd recipe-finder
