@@ -75,9 +75,7 @@ Clicking a card opens a modal containing full recipe details.
 
 User can switch between dark and light themes anytime.
 
-# Screenshots
 
-(Add screenshots here after hosting the project)
 
 🧑‍💻 Project Structure
 │── index.html
@@ -87,10 +85,7 @@ User can switch between dark and light themes anytime.
 
 # Live Demo
 
-(After you enable GitHub Pages, paste your link here.)
-
-Example format:
-👉 https://your-username.github.io/recipe-finder/
+👉 https://deepikaPonakala.github.io/recipe-finder/
 
 # API Used
 
